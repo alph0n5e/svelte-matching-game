@@ -9,4 +9,4 @@ I made the following improvements:
 - Add global state management with `svelte/store`,
 - Add user-set Theme & Difficulty game settings,
 
-See the app live at https://alph0n5e.github.io/svelte-matching-game/!
+See the app live at https://alph0n5e.github.io/svelte-matching-game/
