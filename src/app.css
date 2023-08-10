@@ -21,15 +21,24 @@ body {
 
 body {
 	display: grid;
-	place-content: center;
-	padding: 2rem;
+	justify-content: center;
+	grid-template-rows: 1fr auto;
+	grid-template-columns: 1fr;
+	width: 100%;
 	font-family: 'Poppins', sans-serif;
 	color: var(--txt-1);
 	background-color: var(--bg-1);
 }
 
+main,
+footer {
+	width: 100%;
+	max-width: 750px;
+	margin-inline: auto;
+}
+
 h1 {
-	font-size: 4rem;
+	font-size: 3rem;
 	text-align: center;
 	text-transform: capitalize;
 }
